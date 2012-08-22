@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F827430815C7926E00BD6D9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F827430715C7926E00BD6D9D /* UIKit.framework */; };
+		F827430A15C7926E00BD6D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F827430915C7926E00BD6D9D /* Foundation.framework */; };
+		F827430C15C7926E00BD6D9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F827430B15C7926E00BD6D9D /* CoreGraphics.framework */; };
+		F827431215C7926E00BD6D9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F827431015C7926E00BD6D9D /* InfoPlist.strings */; };
+		F827431415C7926E00BD6D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F827431315C7926E00BD6D9D /* main.m */; };
+		F827431815C7926E00BD6D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F827431715C7926E00BD6D9D /* AppDelegate.m */; };
+		F827431B15C7926E00BD6D9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F827431A15C7926E00BD6D9D /* ViewController.m */; };
+		F827431E15C7926E00BD6D9D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F827431C15C7926E00BD6D9D /* ViewController.xib */; };
+		F827433615C793B100BD6D9D /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F827432915C793B100BD6D9D /* FBDialog.bundle */; };
+		F827433715C793B100BD6D9D /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F827432F15C793B100BD6D9D /* libfacebook_ios_sdk.a */; };
+		F828C7EB15C81260008D08DE /* InviteFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F827433815C7957F00BD6D9D /* InviteFriendsTableViewController.m */; };
+		F828C7EC15C81260008D08DE /* InviteFriendsTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = F827433915C7957F00BD6D9D /* InviteFriendsTableViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F827430315C7926E00BD6D9D /* FacebookInviteFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookInviteFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F827430715C7926E00BD6D9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F827430915C7926E00BD6D9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F827430B15C7926E00BD6D9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F827430F15C7926E00BD6D9D /* FacebookInviteFriends-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacebookInviteFriends-Info.plist"; sourceTree = "<group>"; };
+		F827431115C7926E00BD6D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F827431315C7926E00BD6D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F827431515C7926E00BD6D9D /* FacebookInviteFriends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookInviteFriends-Prefix.pch"; sourceTree = "<group>"; };
+		F827431615C7926E00BD6D9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F827431715C7926E00BD6D9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F827431915C7926E00BD6D9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F827431A15C7926E00BD6D9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F827431D15C7926E00BD6D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F827432715C793B100BD6D9D /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		F827432815C793B100BD6D9D /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		F827432915C793B100BD6D9D /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		F827432A15C793B100BD6D9D /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		F827432B15C793B100BD6D9D /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		F827432C15C793B100BD6D9D /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		F827432D15C793B100BD6D9D /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		F827432E15C793B100BD6D9D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F827432F15C793B100BD6D9D /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		F827433015C793B100BD6D9D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F827433115C793B100BD6D9D /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F827433215C793B100BD6D9D /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		F827433315C793B100BD6D9D /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F827433415C793B100BD6D9D /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F827433515C793B100BD6D9D /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F827433815C7957F00BD6D9D /* InviteFriendsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InviteFriendsTableViewController.m; sourceTree = "<group>"; };
+		F827433915C7957F00BD6D9D /* InviteFriendsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InviteFriendsTableViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F827430015C7926E00BD6D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F827430815C7926E00BD6D9D /* UIKit.framework in Frameworks */,
+				F827430A15C7926E00BD6D9D /* Foundation.framework in Frameworks */,
+				F827430C15C7926E00BD6D9D /* CoreGraphics.framework in Frameworks */,
+				F827433715C793B100BD6D9D /* libfacebook_ios_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F82742F815C7926E00BD6D9D = {
+			isa = PBXGroup;
+			children = (
+				F827430D15C7926E00BD6D9D /* FacebookInviteFriends */,
+				F827432615C793B100BD6D9D /* facebook-ios-sdk */,
+				F827430615C7926E00BD6D9D /* Frameworks */,
+				F827430415C7926E00BD6D9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F827430415C7926E00BD6D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F827430315C7926E00BD6D9D /* FacebookInviteFriends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F827430615C7926E00BD6D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F827430715C7926E00BD6D9D /* UIKit.framework */,
+				F827430915C7926E00BD6D9D /* Foundation.framework */,
+				F827430B15C7926E00BD6D9D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F827430D15C7926E00BD6D9D /* FacebookInviteFriends */ = {
+			isa = PBXGroup;
+			children = (
+				F827431615C7926E00BD6D9D /* AppDelegate.h */,
+				F827431715C7926E00BD6D9D /* AppDelegate.m */,
+				F827431915C7926E00BD6D9D /* ViewController.h */,
+				F827431A15C7926E00BD6D9D /* ViewController.m */,
+				F827431C15C7926E00BD6D9D /* ViewController.xib */,
+				F827433815C7957F00BD6D9D /* InviteFriendsTableViewController.m */,
+				F827433915C7957F00BD6D9D /* InviteFriendsTableViewController.h */,
+				F827430E15C7926E00BD6D9D /* Supporting Files */,
+			);
+			path = FacebookInviteFriends;
+			sourceTree = "<group>";
+		};
+		F827430E15C7926E00BD6D9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F827430F15C7926E00BD6D9D /* FacebookInviteFriends-Info.plist */,
+				F827431015C7926E00BD6D9D /* InfoPlist.strings */,
+				F827431315C7926E00BD6D9D /* main.m */,
+				F827431515C7926E00BD6D9D /* FacebookInviteFriends-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F827432615C793B100BD6D9D /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F827432715C793B100BD6D9D /* Facebook.h */,
+				F827432815C793B100BD6D9D /* FBConnect.h */,
+				F827432915C793B100BD6D9D /* FBDialog.bundle */,
+				F827432A15C793B100BD6D9D /* FBDialog.h */,
+				F827432B15C793B100BD6D9D /* FBFrictionlessRequestSettings.h */,
+				F827432C15C793B100BD6D9D /* FBLoginDialog.h */,
+				F827432D15C793B100BD6D9D /* FBRequest.h */,
+				F827432E15C793B100BD6D9D /* JSON.h */,
+				F827432F15C793B100BD6D9D /* libfacebook_ios_sdk.a */,
+				F827433015C793B100BD6D9D /* NSObject+SBJSON.h */,
+				F827433115C793B100BD6D9D /* NSString+SBJSON.h */,
+				F827433215C793B100BD6D9D /* SBJSON.h */,
+				F827433315C793B100BD6D9D /* SBJsonBase.h */,
+				F827433415C793B100BD6D9D /* SBJsonParser.h */,
+				F827433515C793B100BD6D9D /* SBJsonWriter.h */,
+			);
+			path = "facebook-ios-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F827430215C7926E00BD6D9D /* FacebookInviteFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F827432115C7926E00BD6D9D /* Build configuration list for PBXNativeTarget "FacebookInviteFriends" */;
+			buildPhases = (
+				F82742FF15C7926E00BD6D9D /* Sources */,
+				F827430015C7926E00BD6D9D /* Frameworks */,
+				F827430115C7926E00BD6D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookInviteFriends;
+			productName = FacebookInviteFriends;
+			productReference = F827430315C7926E00BD6D9D /* FacebookInviteFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F82742FA15C7926E00BD6D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Santo Purnama";
+			};
+			buildConfigurationList = F82742FD15C7926E00BD6D9D /* Build configuration list for PBXProject "FacebookInviteFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F82742F815C7926E00BD6D9D;
+			productRefGroup = F827430415C7926E00BD6D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F827430215C7926E00BD6D9D /* FacebookInviteFriends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F827430115C7926E00BD6D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F827431215C7926E00BD6D9D /* InfoPlist.strings in Resources */,
+				F827431E15C7926E00BD6D9D /* ViewController.xib in Resources */,
+				F827433615C793B100BD6D9D /* FBDialog.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F82742FF15C7926E00BD6D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F828C7EB15C81260008D08DE /* InviteFriendsTableViewController.m in Sources */,
+				F828C7EC15C81260008D08DE /* InviteFriendsTableViewController.h in Sources */,
+				F827431415C7926E00BD6D9D /* main.m in Sources */,
+				F827431815C7926E00BD6D9D /* AppDelegate.m in Sources */,
+				F827431B15C7926E00BD6D9D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F827431015C7926E00BD6D9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F827431115C7926E00BD6D9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F827431C15C7926E00BD6D9D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F827431D15C7926E00BD6D9D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F827431F15C7926E00BD6D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F827432015C7926E00BD6D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F827432215C7926E00BD6D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacebookInviteFriends/FacebookInviteFriends-Prefix.pch";
+				INFOPLIST_FILE = "FacebookInviteFriends/FacebookInviteFriends-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F827432315C7926E00BD6D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacebookInviteFriends/FacebookInviteFriends-Prefix.pch";
+				INFOPLIST_FILE = "FacebookInviteFriends/FacebookInviteFriends-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F82742FD15C7926E00BD6D9D /* Build configuration list for PBXProject "FacebookInviteFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F827431F15C7926E00BD6D9D /* Debug */,
+				F827432015C7926E00BD6D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F827432115C7926E00BD6D9D /* Build configuration list for PBXNativeTarget "FacebookInviteFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F827432215C7926E00BD6D9D /* Debug */,
+				F827432315C7926E00BD6D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F82742FA15C7926E00BD6D9D /* Project object */;
+}
